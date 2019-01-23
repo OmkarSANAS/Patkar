@@ -1,0 +1,86 @@
+body{
+    background: #333;
+    color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+    margin: 0;    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(155, 154, 154);
+}
+
+a:hover{
+    color: black;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainheader{
+    background:rgb(24, 24, 24);
+}
+
+#navbar{
+    background: #292929;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style-type: none;  
+}
+
+#navbar li{
+    display: inline;
+    padding-inline-end: 20px;
+    font-size: 20px;
+}
+
+#showcase{
+    background-image: url(../images/showcase.jpg);
+    background-position: center 150px;
+    text-align: center;
+    min-height: 65px;
+}
+
+#showcase h1{
+    font-size: 20px;
+    padding: auto;
+}
+
+#main{
+    text-align: center;
+    float: left;
+    width: 60%;
+    padding: 15px 10px;
+    border: solid 2px rgb(105, 105, 105);
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+#sidebar{
+    text-align: center;
+    background: #111;
+    float: right;
+    width: 40%;
+    padding: 15px 10px;
+    border: solid 2px rgb(105, 105, 105);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+#mainfooter{
+    background: #111;
+    text-align: center;
+    min-height: 50px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
